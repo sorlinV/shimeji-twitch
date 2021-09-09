@@ -1,0 +1,657 @@
+/target:library
+/nowarn:0169
+/out:Temp/Assembly-CSharp.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/SatorImaging.AppWindowUtility.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/define:UNITY_2019_4_14
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:UNITY_PRO_LICENSE
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\APIKeys.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonArray.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonBinary.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonBinaryType.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonBinaryWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonBoolean.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonEmpty.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonObject.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonObjectId.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonProperty.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonReader.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonRegex.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonString.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonToken.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonType.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonValue.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Bson\BsonWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\CompilerServices\ExtensionAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\BinaryConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\BsonObjectIdConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\CustomCreationConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\DataSetConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\DataTableConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\DateTimeConverterBase.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\IXmlDeclaration.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\IXmlDocument.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\IXmlDocumentType.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\IXmlElement.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\IXmlNode.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\IsoDateTimeConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\JavaScriptDateTimeConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\KeyValuePairConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\RegexConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\StringEnumConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\VersionConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\XmlDeclarationWrapper.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\XmlDocumentTypeWrapper.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\XmlDocumentWrapper.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\XmlElementWrapper.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\XmlNodeConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Converters\XmlNodeWrapper.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Handling.Enum.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\IJsonLineInfo.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonArrayAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonConstructorAttibute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonContainerAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonConvert.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonConverterAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonConverterCollection.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonDictionaryAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonException.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonExtensionDataAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonIgnoreAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonObjectAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonPosition.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonPropertyAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonReader.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonReaderException.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonRequiredAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonSerializationException.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonSerializer.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonSerializerSettings.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonTextReader.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonTextWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonValidatingReader.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\JsonWriterException.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\Extensions.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\Handling.Enum.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\IJEnumerable.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JArray.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JConstructor.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JContainer.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JEnumerable.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JObject.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JProperty.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JPropertyDescriptor.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JPropertyKeyedCollection.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JRaw.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JToken.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JTokenEqualityComparer.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JTokenReader.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JTokenType.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JTokenWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JValue.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonLoadSettings.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonMergeSettings.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\ArrayIndexFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\ArrayMultipleIndexFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\ArraySliceFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\BooleanQueryExpression.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\CompositeExpression.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\FieldFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\FieldMultipleFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\JPath.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\PathFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\QueryExpression.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\QueryFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\QueryOperator.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\RootFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\ScanFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Linq\JsonPath\ScanMultipleFilter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\Extensions.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchema.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaBuilder.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaConstants.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaException.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaGenerator.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaModel.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaModelBuilder.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaNode.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaNodeCollection.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaResolver.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaType.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\JsonSchemaWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\UndefinedSchemaIdHandling.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\ValidationEventHandler.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Schema\ValieationEventArgs.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\CachedAttributeGetter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\CamelCaseNamingStrategy.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\CamelCasePropertyNamesContractResolver.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\DefaultContractResolver.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\DefaultNamingStrategy.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\DefaultReferenceResolver.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\DefaultSerializationBinder.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\DiagnosticsTraceWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\DynamicValueProvider.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\ErrorContext.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\ErrorEventArgs.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\ExtensionDelegate.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\IAttributeProvider.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\IContractResolver.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\IReferenceResolver.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\ISerializationBinder.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\ITraceWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\IValueProvider.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonArrayContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonContainerContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonContractType.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonDictionaryContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonFormatterConverter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonISerializableContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonLinqContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonObjectContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonPrimitiveContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonProperty.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonPropertyCollection.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonSerializerInternalBase.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonSerializerInternalWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonSerializerProxy.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonStringContract.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\JsonTypeReflector.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\MemoryTraceWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\NamingStrategy.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\OnErrorAttribute.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\ReflectionAttributeProvider.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\ReflectionValueProvider.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\ResolverContractKey.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\SerializationBinderAdapter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\SnakeCaseNamingStrategy.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\TraceJsonReader.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Serialization\TraceJsonWriter.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\Base64Encoder.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\BidirectionalDictionary.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\BufferUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\CollectionUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\CollectionWrapper.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ConvertUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\DateTimeParser.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\DateTimeUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\Delegate.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\DictionaryWrapper.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\DynamicReflectionDelegateFactory.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\EnumUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\EnumValue.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ILGeneratorExtensions.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\IWrappedCollection.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\IWrappedDictionary.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\JavaScriptUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\JsonTokenUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\LateBoundReflectionDelegateFactory.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\LinqBridge\Enumerable.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\LinqBridge\IGrouping.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\LinqBridge\ILookup.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\LinqBridge\IOrderEnumerable.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\LinqBridge\Lookup.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\LinqBridge\OrderedEnumerable.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\LinqBridge\Tuple.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\MathUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\MiscellaneousUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ParseResult.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ParserTimeZone.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\PrimitiveTypeCode.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\PropertyNameTable.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ReflectionDelegateFactory.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ReflectionMember.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ReflectionObject.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ReflectionUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\StringBuffer.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\StringReference.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\StringReferenceExtensions.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\StringUtils.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ThreadSafeStore.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\TypeExtensions.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\TypeInformation.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\TypeNameKey.cs
+Assets\Package\socket\Plugins\Socket\Newtonsoft.Json\Utilities\ValidationUtils.cs
+Assets\Package\socket\Plugins\Socket\Quobject\ActionTrigger.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\AvlNode.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\IImmutableDictionary.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\IImmutableList.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\IImmutableQueue.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\IImmutableSet.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\IImmutableStack.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\ImmutableDictionary.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\ImmutableDictionary2.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\ImmutableList.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\ImmutableList2.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\ImmutableQueue.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\ImmutableQueue2.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\ImmutableStack.cs
+Assets\Package\socket\Plugins\Socket\Quobject\Collections\Immutable\ImmutableStack2.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Client\EngineIOException.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Client\HandshakeData.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Client\Socket.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Client\Transport.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Client\Transports\Polling.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Client\Transports\PollingXHR.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Client\Transports\WebSocket.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\ComponentEmitter\Emitter.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\ComponentEmitter\IListener.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\ComponentEmitter\ListenerImpl.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\ComponentEmitter\OnceListener.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Modules\Global.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Modules\LogManager.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Modules\ParseQS.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Modules\ServerCertificate.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Modules\UTF8.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Modules\UTF8Exception.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Parser\Buffer.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Parser\ByteBuffer.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Parser\IDecodePayloadCallback.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Parser\IEncodeCallback.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Parser\Packet.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Parser\Parser2.cs
+Assets\Package\socket\Plugins\Socket\Quobject\EngineIoClientDotNet\Thread\EasyTimer.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\AckImpl.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\ClientOn.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\Engine.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\IAck.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\IO.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\Manager.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\Options.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\QSocket.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\SocketIOException.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Client\Url.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Modules\HasBinaryData.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Parser\Binary.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Parser\Packet.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Parser\Packet2.cs
+Assets\Package\socket\Plugins\Socket\Quobject\SocketIoClientDotNet\Parser\Parser.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Command\BadRequest.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Command\Binary.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Command\Close.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Command\Handshake.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Command\Ping.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Command\Pong.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Command\Text.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Command\WebSocketCommandBase.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\CompilerServices.SuperSocket\ExtensionAttibute.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\CompilerServices\ExtensionAttribute.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\ClosedEventArgs.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\DataReceivedEventArgs.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\Extensions.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\IJsonExecutor.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\JsonExecutor.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\JsonExecutorBase.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\JsonExecutorFull.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\JsonExecutorWithSender.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\JsonExecutorWithSenderAndState.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\JsonExecutorWithToken.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\JsonWebSocket.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\MessageReceivedEventArgs.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\OpCode.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\WebSocket.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\WebSocketCommandInfo.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\WebSocketContext.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\WebSocketState.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\WebSocketStateConst.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Default\WebSocketVersion.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\CloseStatusCodeHybi10.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\CloseStatusCodeRfc6455.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\DraftHybi00DataReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\DraftHybi00HandshakeReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\DraftHybi00Processor.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\DraftHybi10DataReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\DraftHybi10HandshakeReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\DraftHybi10Processor.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\FramePartReader\DataFramePartReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\FramePartReader\ExtendedLenghtReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\FramePartReader\FixPartReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\FramePartReader\IDataFramePartReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\FramePartReader\MaskKeyReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\FramePartReader\PayloadDataReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\HandshakeReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\ICloseStatusCode.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\IProtocolProcessor.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\ProtocolProcessorBase.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\ProtocolProcessorFactory.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\ReaderBase.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\Rfc6455Processor.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\Protocol\WebSocketDataFrame.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\AsyncTcpSession.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\ClientSession.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\ConcurrentBatchQueue.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\ConnectAsyncExtension.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\ConnectedCallback.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\DataEventArgs.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\ErrorEventArgs.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Extensions.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\IBatchQueue.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\IBufferSetter.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\IClientSession.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\IPosList.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\IProxyConnector.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\PosList.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\ArraySegmentEx.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\ArraySegmentList.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\ArraySegmentList2.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\BinaryCommandInfo.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\CommandDelegate.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\CommandInfo.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\DelegateCommand.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\IClientCommandReader.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\ICommand.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\ICommand2.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\ICommandInfo.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\ICommandInfo2.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\Protocol\StringCommandInfo.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\ProxyEventArgs.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\SearchMarkState.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\SslStreamTcpSession.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\SuperSocket.ClientEngine\TcpClientSession.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\System\Collections\ConcurrentQueue.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\System\Linq\DelegateComparer.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\System\Linq\LINQ.cs
+Assets\Package\socket\Plugins\Socket\WebSocket4Net\System\Net\DnsEndPoint.cs
+Assets\Package\socket\Scripts\TestObject.cs
+Assets\Streamlabs.cs
+Assets\TransparentWindow.cs

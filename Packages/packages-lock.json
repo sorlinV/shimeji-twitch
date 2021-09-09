@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.elringus.unitystreamlabs": {
+      "version": "https://github.com/Elringus/UnityStreamlabs.git?path=Assets/UnityStreamlabs",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7cf36755652a26c31623f80a3a018e0d65b3566c"
+    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -52,13 +59,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.high-definition-config": {
-      "version": "7.3.1",
-      "depth": 1,
-      "source": "registry",
+      "version": "file:../LocalPackages/com.unity.render-pipelines.high-definition-config",
+      "depth": 0,
+      "source": "local",
       "dependencies": {
         "com.unity.render-pipelines.core": "7.3.1"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.shadergraph": {
       "version": "7.3.1",

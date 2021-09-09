@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4e7300802f2b74fb7dfdbc7b760ffd, type: 3}
+  m_Name: StreamlabsSettings
+  m_EditorClassIdentifier: 
+  genericClientCredentials:
+    authUri: https://streamlabs.com/api/v1.0/authorize
+    tokenUri: https://streamlabs.com/api/v1.0/token
+    clientId: 
+    clientSecret: 
+    redirectUris:
+    - http://localhost
+  accessScopes:
+  - donations.read
+  - donations.create
+  - socket.token
+  loopbackUri: http://localhost
+  loopbackResponseHtml: <html><h1>Please return to the app.</h1></html>
+  accessTokenPrefsKey: rBHkCep8aSQ4NVPMDx3ovlY7KPrFBEvSKUFMeIRR
+  refreshTokenPrefsKey: rBHkCep8aSQ4NVPMDx3ovlY7KPrFBEvSKUFMeIRR
+  emitDebugMessages: 0
